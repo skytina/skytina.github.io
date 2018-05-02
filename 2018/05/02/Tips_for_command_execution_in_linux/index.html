@@ -5,18 +5,20 @@
   
 
   
-  <title>Try to Pwn my World</title>
+  <title>命令执行绕过技巧-linux环境 | Try to Pwn my World</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="record my life">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Try to Pwn my World">
-<meta property="og:url" content="https://skytina.github.io/index.html">
+  <meta name="description" content="当在挖掘命令执行漏洞的时候，总会遇到黑名单，这时候一些绕过技巧就很有用了。 1. 空格过滤了1.1 Method1:可以使用${IFS}、$IFS1ls$&amp;#123;IFS&amp;#125;-al 优势:  sh、bash都可以  例子:wooyun-2012-07068 1.2 Method2:可以使用环境变量1COMMAND=$&amp;apos;\x20-al&amp;apos;;ls$COMMAND 优势:">
+<meta name="keywords" content="waf,bypass tips">
+<meta property="og:type" content="article">
+<meta property="og:title" content="命令执行绕过技巧-linux环境">
+<meta property="og:url" content="https://skytina.github.io/2018/05/02/Tips_for_command_execution_in_linux/index.html">
 <meta property="og:site_name" content="Try to Pwn my World">
-<meta property="og:description" content="record my life">
+<meta property="og:description" content="当在挖掘命令执行漏洞的时候，总会遇到黑名单，这时候一些绕过技巧就很有用了。 1. 空格过滤了1.1 Method1:可以使用${IFS}、$IFS1ls$&amp;#123;IFS&amp;#125;-al 优势:  sh、bash都可以  例子:wooyun-2012-07068 1.2 Method2:可以使用环境变量1COMMAND=$&amp;apos;\x20-al&amp;apos;;ls$COMMAND 优势:">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-05-02T04:32:18.373Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Try to Pwn my World">
-<meta name="twitter:description" content="record my life">
+<meta name="twitter:title" content="命令执行绕过技巧-linux环境">
+<meta name="twitter:description" content="当在挖掘命令执行漏洞的时候，总会遇到黑名单，这时候一些绕过技巧就很有用了。 1. 空格过滤了1.1 Method1:可以使用${IFS}、$IFS1ls$&amp;#123;IFS&amp;#125;-al 优势:  sh、bash都可以  例子:wooyun-2012-07068 1.2 Method2:可以使用环境变量1COMMAND=$&amp;apos;\x20-al&amp;apos;;ls$COMMAND 优势:">
   
     <link rel="alternate" href="/atom.xml" title="Try to Pwn my World" type="application/atom+xml">
   
@@ -63,9 +65,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Tips_for_command_execution_in_linux" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Tips_for_command_execution_in_linux" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/05/02/Tips_for_command_execution_in_linux/" class="article-date">
   <time datetime="2018-05-02T03:54:43.000Z" itemprop="datePublished">2018-05-02</time>
@@ -78,8 +78,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/02/Tips_for_command_execution_in_linux/">命令执行绕过技巧-linux环境</a>
+    <h1 class="article-title" itemprop="name">
+      命令执行绕过技巧-linux环境
     </h1>
   
 
@@ -138,11 +138,9 @@
     </footer>
   </div>
   
-</article>
-
-
+    
   
-
+</article>
 
 </section>
         
